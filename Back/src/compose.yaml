@@ -1,0 +1,6 @@
+﻿services:
+  proactivity.api:
+    image: proactivity.api
+    build:
+      context: .
+      dockerfile: ProActivity.API/Dockerfile
